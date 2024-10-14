@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4285f4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección de biografía */
+.bio-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7f0fd;
+    padding: 2rem;
+}
+
+.bio-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.bio-text {
+    margin-left: 20px;
+}
+
+.bio-text h2 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Estilos para las secciones */
+.biografia, .logros, .citas {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.biografia h3, .logros h3, .citas h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Estilos para logros destacados */
+.logros {
+    background-color: #f9f9f9;
+}
+
+.logros .logro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.logros .logro img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.logros .logro h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.logros .logro p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Citas inspiradoras */
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
